@@ -1,89 +1,7 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
-    <head>
-
-        <!-- Site Title -->
-        <title>PTM YASMIN499 - Persatuan Tenis Meja di Bogor</title>
-
-        <!-- Site Meta Info -->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="PTM YASMIN499 adalah salah satu komunitas tenis meja di bogor.">
-        <meta name="keywords" content="PTM yasmin499, yasmin499, , tenis meja, pingpong, bogor, komunitas tenis meja, ">
-        <meta name="author" content="PTMYASMIN499.com">
-
-
-        <!-- Essential CSS Files -->
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/normalize.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/font-awesome.min.css') ?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/animate.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('/assets/static/css/simplelightbox.min.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/bootstrap.min.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/owl.carousel.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/owl.theme.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/style.css')?>">
-
-        <!-- Color Styles -->
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/colors/color-green.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/colors/color-blue.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/colors/color-purple.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/colors/default-color.css')?>">
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/colors/color-aqua.css')?>">
-
-        <!-- Responsive CSS -->
-        <link rel="stylesheet" href="<?php echo base_url('assets/static/css/responsive.css')?>">
-
-        <!-- Google Web Fonts =:= Raleway , Montserrat and Roboto -->
-        <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto:700,500,400' rel='stylesheet' type='text/css'>
-
-        <!-- Essential JS Files -->
-        <script src="<?php echo base_url('assets/static/js/vendor/jquery-1.11.3.min.js')?>"></script>
-        <script src="<?php echo base_url('assets/static/js/vendor/modernizr-2.8.3.min.js')?>"></script>
-
-        <!-- IE9 Scripts -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    </head>
-    <body>
-
-        <!-- Heaser Area Start -->
-        <header class="header-area">
-            <!-- Navigation start -->
-            <nav class="navbar navbar-custom tb-nav" role="navigation">
-                <div class="container">        
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tb-nav-collapse">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand logo" href="#"><img src="<?php echo base_url('assets/static/img/logo.jpg')?>"></img>
-                    <a class="navbar-brand logo" href="#"><h2 style="margin-left: 25px;">PTM <span>YASMIN499</span></h2></a>
-                  </div>
-              
-                  <div class="collapse navbar-collapse" id="tb-nav-collapse">
-              
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="page-scroll" href="#top">Beranda</a></li>
-                        <li><a class="page-scroll" href="#about">Tentang Kami</a></li>
-                        <li><a class="page-scroll" href="#testimonial">Testimoni</a></li>
-                        <li><a class="page-scroll" href="#portfolio">Photo</a></li>
-                        <li><a class="page-scroll" href="#pricing">Program</a></li>
-                        <li><a class="page-scroll" href="#blog">Informasi</a></li>
-                        <li><a class="page-scroll" href="#contact">Hubungi kami</a></li>
-                    </ul>
-                  </div>
-                </div>
-            </nav>
-        </header>
-        <!-- Navigation end -->
+<?php
+$this->load->view('/includes/metadata');
+$this->load->view('/includes/header');
+?>
 
                 <!-- hero-slider-section -->
         <section id="top"> 
@@ -747,7 +665,7 @@
                                 <!-- BLog Post Image -->
                                 <div class="col-md-6 blog-post-image">
                                     <figure>
-                                        <a href="#"><img class="img-responsive img-thumbnail" src="/assets/static/img/blog/post-2.jpg" alt="Blog post image"></a>
+                                        <a href="#"><img class="img-responsive img-thumbnail" src="<?php echo base_url('assets/static/img/blog/post-2.jpg')?>" alt="Blog post image"></a>
                                     </figure>
                                 </div>
 
@@ -895,58 +813,6 @@
 
         <!-- End Of Google Map Section -->
 
-        <!-- Footer Section -->
-
-        <footer class="footer-section">
-            <div class="container">
-                <div class="row mt-30 mb-30">
-                    <div class="col-md-12 text-center">
-                        <!-- Footer Copy Right Text -->
-                        <div class="copyright-info">
-                            <a href="http://themebite.com"><span><i class="fa fa-code"></i></span> with <span><i class="fa fa-heart"></i></span> By <span>ThemeBite</span></a>
-                        </div>
-
-                        <!-- Footer Social Icons -->
-                        <div class="social-icons mt-30">
-                            <a href="https://www.facebook.com/themebite/"><i class="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/themebite/"><i class="fa fa-twitter"></i></a>
-                            <a href="https://plus.google.com/themebite/"><i class="fa fa-google-plus"></i></a>
-                            <a href="https://github.com/themebite/"><i class="fa fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- End Of Footer Section -->
-
-
-        <!-- JS Files -->
-        <!-- Bootstrap JS -->
-        <script src="<?php echo base_url('assets/static/js/bootstrap.min.js')?>"></script>
-        <!-- jQuery Easing -->
-        <script src="<?php echo base_url('assets/static/js/jquery.easing.min.js')?>"></script>
-        <!-- PreLoader -->
-        <script src="<?php echo base_url('assets/static/js/queryloader2.min.js')?>"></script>
-        <!-- WOW JS Animation -->
-        <script src="<?php echo base_url('assets/static/js/wow.min.js')?>"></script>
-        <!-- Simple Lightbox -->
-        <script src="<?php echo base_url('assets/static/js/simple-lightbox.min.js')?>"></script>
-        <!-- Sticky -->
-        <script src="<?php echo base_url('assets/static/js/jquery.sticky.js')?>"></script>
-        <!-- OWL-Carousel -->
-        <script src="<?php echo base_url('assets/static/js/owl.carousel.min.js')?>"></script>
-        <!-- jQuery inview -->
-        <script src="<?php echo base_url('assets/static/js/jquery.inview.js')?>"></script>
-        <!-- Shuffle jQuery -->
-        <script src="<?php echo base_url('assets/static/js/jquery.shuffle.min.js')?>"></script>
-        <!-- jQuery CountTo -->
-        <script src="<?php echo base_url('assets/static/js/jquery.counTo.js')?>"></script>
-        <!-- Goole map API -->
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <!-- gmap.js plugin -->
-        <script src="<?php echo base_url('assets/static/js/gmap.js')?>"></script>
-        <!-- Main JS -->
-        <script src="<?php echo base_url('assets/static/js/main.js')?>"></script>
-     </body>
-</html>             
+<?php
+    $this->load->view('/includes/footer');
+?>
